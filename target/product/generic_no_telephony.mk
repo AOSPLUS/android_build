@@ -80,6 +80,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
         UpdateCenter
 
+# Add Nova Launcher
+PRODUCT_COPY_FILES := vendor/AOSPLUS/prebuilt/commom/apps/NovaLauncher.apk:system/app/
+
 PRODUCT_COPY_FILES := \
         frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf
 
