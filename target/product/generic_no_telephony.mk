@@ -33,6 +33,7 @@ PRODUCT_PACKAGES := \
     InputDevices \
     Keyguard \
     LatinIME \
+    Launcher2 \
     Music \
     MusicFX \
     OneTimeInitializer \
@@ -80,7 +81,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
         UpdateCenter
 
-# Add Nova Launcher
+
+# Bootanimation and apps
+PRODUCT_COPY_FILES := vendor/AOSPLUS/prebuilt/commom/bootanimation/bootanimation.zip:system/media/
 PRODUCT_COPY_FILES := vendor/AOSPLUS/prebuilt/commom/apps/NovaLauncher.apk:system/app/
 
 PRODUCT_COPY_FILES := \
