@@ -33,7 +33,7 @@ PRODUCT_PACKAGES := \
     InputDevices \
     Keyguard \
     LatinIME \
-    Launcher2 \
+    Launcher3 \
     Music \
     MusicFX \
     OneTimeInitializer \
@@ -79,7 +79,8 @@ PRODUCT_PACKAGES += \
 
 # Build UpdateCenter
 PRODUCT_PACKAGES += \
-        UpdateCenter
+        UpdateCenter \
+        About
 
 
 # Bootanimation and apps
