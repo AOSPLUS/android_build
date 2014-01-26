@@ -80,7 +80,8 @@ PRODUCT_PACKAGES += \
 # Build UpdateCenter
 PRODUCT_PACKAGES += \
         UpdateCenter \
-        About
+        About \
+        Lightbulb
 
 
 # Bootanimation and apps
