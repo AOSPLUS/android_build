@@ -33,7 +33,6 @@ PRODUCT_PACKAGES := \
     InputDevices \
     Keyguard \
     LatinIME \
-    Launcher3 \
     Music \
     MusicFX \
     OneTimeInitializer \
@@ -81,7 +80,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
         UpdateCenter \
         About \
-        Lightbulb
+        Lightbulb \
+        Wallpapers \
+        Trebuchet 
 
 
 # Bootanimation and apps
